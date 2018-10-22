@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(summon)
   summon.collect do |call| 
-    summon.join(", ")
+    call.capitalize + "!"
   end
 end
 
