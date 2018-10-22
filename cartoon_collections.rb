@@ -1,7 +1,9 @@
 def roll_call_dwarves(order)
+  order_roll_call = []
   order.each_with_index {|name,index|
-    
-  }
+    order_roll_call = "#{index +1} #{name}"
+    }
+  end
 end
 
 def summon_captain_planet# code an argument here
