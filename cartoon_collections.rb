@@ -26,5 +26,4 @@ def find_the_cheese(list)
   if list.include?(cheese_types)
     return cheese_types
   end
-  puts list
 end
