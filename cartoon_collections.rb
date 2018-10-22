@@ -1,7 +1,6 @@
 def roll_call_dwarves(order)
-  order.each_with_index {|name,index|
+  order.each_with_index |name,index|
      puts "#{index +1} #{name}"
-    }
     end
 end
 
