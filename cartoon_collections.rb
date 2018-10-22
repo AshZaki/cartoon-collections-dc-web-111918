@@ -25,5 +25,6 @@ def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if list.include?(cheese_types)
     puts list.cheese_types
+  elsif 
   end
 end
