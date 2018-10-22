@@ -14,10 +14,10 @@ def long_planeteer_calls(word)
   word.any? do |word|
     if word.length > 4
       return true
-    else
-      return false
+    elsif word.length < 4
+      return true
     end
-    
+    return false
   end
 end
 
